@@ -58,15 +58,13 @@ const validateEmail = (email) => {
 
 const validatePhoneNumber = (phoneNumber) => {
     return String(phoneNumber)
-        .toLowerCase()
         .match(
-            /^\d{11}$/
+            /^01[0-9]{9}$/
         );
 };
 
 const validatePostCode = (postCode) => {
     return String(postCode)
-        .toLowerCase()
         .match(
             /^\d{4}$/
         );
