@@ -41,7 +41,7 @@ function guessTheNumber() {
     alert("You lose! The correct number was: " + correcr_ans);
 }
 
-// guessTheNumber();
+guessTheNumber();
 restartBtn.addEventListener('click', guessTheNumber)
 
 
