@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+}
+
+#restart {
+    background: slateblue;
+    font-size: 22px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
